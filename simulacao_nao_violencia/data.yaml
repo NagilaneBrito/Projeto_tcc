@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['abracar', 'afago', 'beijar o rosto', 'cumprimento', 'gesto leve', 'maos dadas']
+
+roboflow:
+  workspace: nana-brito
+  project: deteccao-nao-violencia
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nana-brito/deteccao-nao-violencia/dataset/3
