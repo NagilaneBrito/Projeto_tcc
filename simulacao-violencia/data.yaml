@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['agarrar', 'bater', 'chutar', 'deteccao-violencia', 'esfaquear', 'imobilizar']
+
+roboflow:
+  workspace: nana-brito
+  project: deteccao-violencia-tojjy
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nana-brito/deteccao-violencia-tojjy/dataset/5
